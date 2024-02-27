@@ -24,7 +24,7 @@ const checkVerifiedToken = (values) => {
           });
         }
 
-        // Token is valid, you can access decoded.email
+        // Token is valid, you can access decoded.email 
         resolve({
           responseCode: 200,
           message: "Token is valid.",
